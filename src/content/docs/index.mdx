@@ -1,0 +1,40 @@
+---
+title: OSS Insights
+description: 人気OSSリポジトリの技術スタック・設計パターンを分析し、自分のOSS開発に活かすためのナレッジベース
+template: splash
+hero:
+  tagline: 人気OSSから学ぶ技術とベストプラクティス
+  actions:
+    - text: 分析一覧を見る
+      link: /frontend/
+      icon: right-arrow
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## このサイトについて
+
+人気のあるOSSリポジトリを分析し、以下の観点から学びを蓄積しています。
+
+<CardGrid stagger>
+	<Card title="技術スタック" icon="setting">
+		言語、フレームワーク、ライブラリの選定
+	</Card>
+	<Card title="CI/CD" icon="rocket">
+		GitHub Actions、テスト、リリース自動化
+	</Card>
+	<Card title="プロジェクト運営" icon="document">
+		ドキュメント、Issue/PR管理、コミュニティ運営
+	</Card>
+	<Card title="設計パターン" icon="puzzle">
+		フォルダ構造、アーキテクチャ
+	</Card>
+</CardGrid>
+
+## カテゴリ
+
+- **Frontend**: React, Vue, Angular などのフロントエンドフレームワーク
+- **Backend**: Express, FastAPI, Gin などのバックエンドフレームワーク
+- **CLI / Tools**: CLIツール、開発者向けツール
+- **Infrastructure**: Docker, Kubernetes, Terraform など
+- **Summary**: 比較表、まとめ
